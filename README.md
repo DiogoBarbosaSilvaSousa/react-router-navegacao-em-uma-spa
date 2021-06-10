@@ -7,4 +7,5 @@
 
 ## Comandos usados
 
-*  json-server --watch db.json --port 5000 (Servidor json-server usado para criar dados para testes 'mocks')
+*  **./node_modules/.bin**/json-server --watch db.json --port 5000 (Servidor json-server usado para criar dados para testes 'mocks')
+*  No Windows 10 tive de indicar o caminho da pasta node_modules para executar o json-server **./node_modules/.bin**/ no comando anterior.
